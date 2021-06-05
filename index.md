@@ -7,9 +7,13 @@ This time we accesed a library of students with different properties including:
 *first name* , *last name* , and *id number*.   
 This lab also required we use postman to test the GET and POST requests.   
 The webpage is able to identify what student is trying to be accessed and display that information. 
-
-## Code: 
-**[Here](https://github.com/Myles-P-D/cit281-lab05/blob/main/fastify-server.js)** is the full code and below is an excerpt from the lab assignemnt.
+   
+**[lab 05 Repo](https://github.com/UO-CIT-Myles-P-D/cit281-lab05)**
+   
+## Code:    
+    
+**[Here](https://github.com/Myles-P-D/cit281-lab05/blob/main/fastify-server.js)** is the full code and below is an excerpt from the lab assignemnt.    
+    
 ```javascript
 //student/id route
 fastify.get("/cit/student/:id", (request, reply) => {
@@ -41,13 +45,16 @@ fastify.get("/cit/student/:id", (request, reply) => {
 });
 ```
 
-## Images: 
-This is an image of accesing a single students information.
-![single student](https://github.com/Myles-P-D/cit281-lab05/blob/main/SingleStudent.png?raw=true "single student")
+## Images:    
+    
+This is an image of accesing a single students information.     
+     
+![single student](https://github.com/Myles-P-D/cit281-lab05/blob/main/SingleStudent.png?raw=true "single student")     
    
      
-This is an image of adding a new student to the library.
-![student post](https://github.com/Myles-P-D/cit281-lab05/blob/main/StudentPost.png?raw=true "student post")
+This is an image of adding a new student to the library.     
+     
+![student post](https://github.com/Myles-P-D/cit281-lab05/blob/main/StudentPost.png?raw=true "student post")     
    
 
 
